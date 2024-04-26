@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cantener{
+    width: 100%;
+    height: 600px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+
+.wrap{
+    width: 7%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.cirkil{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    border-radius: 50%;
+    animation: box 1.2s 1S linear infinite;
+}
+
+.cirkil1{
+    width: 100px;
+    height: 100px;
+    background: goldenrod;
+    border-radius: 50%;
+    animation: box1 1.5s 2S linear infinite;
+}
+.cirkil2{
+    width: 100px;
+    height: 100px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    animation: box2 2s 3S linear infinite;
+}
+
+@keyframes box {
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@keyframes box1 {
+    50%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes box2 {
+    50%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+.center{
+    width: 100%;
+    height: 600px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    background: dimgrey;
+}
+
+
+
+.wrap1{
+    width: 15%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.card1{
+    width: 7px;
+    height: 25px;
+    background: white;
+
+    animation: card1 2s 1.5s linear infinite;
+}
+
+
+.card2{
+    width: 7px;
+    height: 25px;
+    background: white;
+    animation: card2 2s 2s linear infinite;
+}
+
+
+.card3{
+    width: 7px;
+    height: 25px;
+    background: white;
+    animation: card3 2s 2.5s linear infinite;
+}
+
+
+.card4{
+    width: 7px;
+    height: 25px;
+    background: white;
+    animation: card4 2s 3s linear infinite;
+}
+
+
+
+.card5{
+    width: 7px;
+    height: 25px;
+    background: white;
+    animation: card5 2.1s 3.5s linear infinite;
+}
+
+@keyframes card1 {
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+@keyframes card2 {
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+@keyframes card3 {
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+@keyframes card4 {
+    50%{
+        transform: scale(2.5);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+@keyframes card5 {
+    50%{
+        transform: scale(3);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+
+.footer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: black;
+    position: relative;
+}
+
+
+.true1{
+    width: 180px;
+    height: 180px;
+    border: 2px solid #7B241C;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: true1 2s linear infinite;
+}
+
+
+.true2{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #17A589 ;
+    box-shadow: 0 0 8px aqua;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: true2 2s linear infinite;
+}
+
+
+.true3{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #B7950B ;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-radius: 50%;
+    animation: true3 2s linear infinite;
+}
+
+
+
+
+@keyframes true1 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes true2 {
+    100%{
+        transform: rotate(-720deg);
+    }
+}
+
+
+
+@keyframes true3 {
+    100%{
+        transform: rotate(1080deg);
+    }
+}
+
+
+.lina{
+    width: 100%;
+    height: 600px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.loding{
+    position: absolute;
+    bottom: -1200px;
+}
+.loding h1 {
+    background: white;
+    width: 150px;
+    color: red;
+    border-radius: 20px;
+    border: 2px solid red;
+   
+}
+
+
+.lina1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.lina2{
+    height: 2px;
+    width: 150px;
+    background: red;
+    
+    margin-right: 1005px;
+
+    animation: line2 3.5s linear infinite;
+}
+
+
+@keyframes line2 {
+    25%{
+        transform: translateX(1000px);
+        background: black;
+    }
+
+    50%{
+        background: black;
+    }
+    75%{
+      
+        background: black;
+    }
+    100%{
+        background: black;
+    }
+}
